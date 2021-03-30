@@ -2,8 +2,7 @@ import re
 import json
 import requests
 
-from schema import Use, Schema
-from typing import List, Optional
+from schema import Use, Schema  # type: ignore
 
 
 # URL of the galactic MSPs catalog.
