@@ -143,13 +143,13 @@
         "NOTES": "GBT-Fermi"
     },
     "14": {
-        "NAME": "J0312-09",
+        "NAME": "J0312-0921",
         "P": 3.7,
         "DM": 20.5,
         "GAL_L": 191.5,
         "GAL_B": -52.4,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 0.097,
+        "PSMA": 0.015,
         "YEAR": 2019,
         "NOTES": "GBT-Fermi"
     },
@@ -168,8 +168,8 @@
         "NAME": "J0329+50",
         "P": 3.06,
         "DM": 7.4,
-        "GAL_L": 148.2,
-        "GAL_B": -3.8,
+        "GAL_L": 146.9,
+        "GAL_B": -4.7,
         "PBIN": null,
         "PSMA": null,
         "YEAR": 2019,
@@ -203,8 +203,8 @@
         "DM": 49.3,
         "GAL_L": 165.1,
         "GAL_B": -15.8,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 6.96,
+        "PSMA": 2.32,
         "YEAR": 2015,
         "NOTES": "GBT-GBNCC"
     },
@@ -220,7 +220,7 @@
         "NOTES": "AO-430"
     },
     "21": {
-        "NAME": "J0418+66",
+        "NAME": "J0418+6635",
         "P": 2.91,
         "DM": 77.6,
         "GAL_L": 141.5,
@@ -270,7 +270,7 @@
         "GAL_L": 192.5,
         "GAL_B": -17.9,
         "PBIN": 4.9,
-        "PSMA": null,
+        "PSMA": 2.458,
         "YEAR": 2013,
         "NOTES": "AO-327Drift"
     },
@@ -500,8 +500,8 @@
         "DM": 34.6,
         "GAL_L": 223.6,
         "GAL_B": 20.8,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 23.207,
+        "PSMA": 18.989,
         "YEAR": 2012,
         "NOTES": "AO-327Drift"
     },
@@ -737,13 +737,13 @@
         "NOTES": "PKS-HTRU"
     },
     "68": {
-        "NAME": "J1101-6425",
+        "NAME": "J1101-6424",
         "P": 5.11,
         "DM": 207.0,
         "GAL_L": 291.4,
         "GAL_B": -4.0,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 9.612,
+        "PSMA": 14.02,
         "YEAR": 2013,
         "NOTES": "PKS-HTRU"
     },
@@ -1001,13 +1001,13 @@
         "NOTES": "AO-Fermi"
     },
     "92": {
-        "NAME": "J1306-40",
+        "NAME": "J1306-4035",
         "P": 2.2,
         "DM": 35.0,
         "GAL_L": 306.1,
-        "GAL_B": 22.1,
-        "PBIN": null,
-        "PSMA": null,
+        "GAL_B": 22.2,
+        "PBIN": 1.097,
+        "PSMA": 3.09,
         "YEAR": 2017,
         "NOTES": "Parkes-SUPERB"
     },
@@ -1031,7 +1031,7 @@
         "PBIN": 0.065,
         "PSMA": 0.011,
         "YEAR": 2012,
-        "NOTES": "GBT-Fermi"
+        "NOTES": "LAT-Fermi"
     },
     "95": {
         "NAME": "J1312+0051",
@@ -1133,13 +1133,13 @@
         "NOTES": "PKS-Fermi"
     },
     "104": {
-        "NAME": "J1421-44",
+        "NAME": "J1421-4409",
         "P": 6.38,
         "DM": 55.0,
         "GAL_L": 319.4,
-        "GAL_B": 15.7,
-        "PBIN": null,
-        "PSMA": null,
+        "GAL_B": 15.8,
+        "PBIN": 30.746,
+        "PSMA": 12.707,
         "YEAR": 2015,
         "NOTES": "PKS-SUPERB"
     },
@@ -1331,13 +1331,13 @@
         "NOTES": "GMRT-Fermi"
     },
     "122": {
-        "NAME": "J1537-5317",
+        "NAME": "J1537-5312",
         "P": 6.93,
         "DM": 117.5,
         "GAL_L": 326.4,
         "GAL_B": 1.8,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 3.55,
+        "PSMA": 1.982,
         "YEAR": 2015,
         "NOTES": "PKS-HTRU"
     },
@@ -1375,17 +1375,6 @@
         "NOTES": "PKS-HTRU"
     },
     "126": {
-        "NAME": "J1546-5706",
-        "P": 4.29,
-        "DM": 95.7,
-        "GAL_L": 325.0,
-        "GAL_B": -2.0,
-        "PBIN": null,
-        "PSMA": null,
-        "YEAR": 2015,
-        "NOTES": "PKS-HTRU"
-    },
-    "127": {
         "NAME": "J1546-59",
         "P": 7.79,
         "DM": 168.2,
@@ -1395,6 +1384,17 @@
         "PSMA": null,
         "YEAR": 2012,
         "NOTES": "PKS-PMPSWVU"
+    },
+    "127": {
+        "NAME": "J1547-5709",
+        "P": 4.29,
+        "DM": 95.7,
+        "GAL_L": 325.0,
+        "GAL_B": -2.0,
+        "PBIN": 3.077,
+        "PSMA": 2.668,
+        "YEAR": 2015,
+        "NOTES": "PKS-HTRU"
     },
     "128": {
         "NAME": "J1551-0658",
@@ -1529,13 +1529,13 @@
         "NOTES": "PKS-SWIL"
     },
     "140": {
-        "NAME": "J1618-4623",
+        "NAME": "J1618-4624",
         "P": 5.93,
         "DM": 125.4,
         "GAL_L": 335.8,
         "GAL_B": 2.9,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 1.78,
+        "PSMA": 5.329,
         "YEAR": 2016,
         "NOTES": "PKS-HTRU"
     },
@@ -1650,13 +1650,13 @@
         "NOTES": "GBT-Fermi"
     },
     "151": {
-        "NAME": "J1630+35",
+        "NAME": "J1630+3550",
         "P": 3.22,
         "DM": 17.4,
         "GAL_L": 58.0,
         "GAL_B": 43.0,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 0.316,
+        "PSMA": 0.036,
         "YEAR": 2018,
         "NOTES": "AO-Drift"
     },
@@ -1727,7 +1727,7 @@
         "NOTES": "E@H-Fermi"
     },
     "158": {
-        "NAME": "J1652-48",
+        "NAME": "J1652-4838",
         "P": 3.78,
         "DM": 187.8,
         "GAL_L": 337.9,
@@ -1776,8 +1776,8 @@
         "DM": 58.0,
         "GAL_L": 3.1,
         "GAL_B": 13.0,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 0.183,
+        "PSMA": 0.104,
         "YEAR": 2018,
         "NOTES": "PKS-HTRU"
     },
@@ -1892,17 +1892,6 @@
         "NOTES": "PKS-PMPSWVU"
     },
     "173": {
-        "NAME": "J1726-2953",
-        "P": 28.4,
-        "DM": 215.0,
-        "GAL_L": 357.0,
-        "GAL_B": 2.9,
-        "PBIN": null,
-        "PSMA": null,
-        "YEAR": 2017,
-        "NOTES": "PKS-HTRU"
-    },
-    "174": {
         "NAME": "J1727-1609",
         "P": 2.45,
         "DM": 93.1,
@@ -1913,7 +1902,7 @@
         "YEAR": 2017,
         "NOTES": "GBT-Fermi"
     },
-    "175": {
+    "174": {
         "NAME": "J1727-2946",
         "P": 27.08,
         "DM": 60.9,
@@ -1923,6 +1912,17 @@
         "PSMA": 56.532,
         "YEAR": 2012,
         "NOTES": "PKS-PMPS"
+    },
+    "175": {
+        "NAME": "J1727-2951",
+        "P": 28.4,
+        "DM": 215.0,
+        "GAL_L": 357.0,
+        "GAL_B": 2.9,
+        "PBIN": 0.395,
+        "PSMA": 0.058,
+        "YEAR": 2017,
+        "NOTES": "PKS-HTRU"
     },
     "176": {
         "NAME": "J1730-2304",
@@ -2051,8 +2051,8 @@
         "DM": 245.0,
         "GAL_L": 4.7,
         "GAL_B": 2.9,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 0.166,
+        "PSMA": 0.062,
         "YEAR": 2017,
         "NOTES": "PKS-HTRU"
     },
@@ -2324,10 +2324,10 @@
         "NAME": "J1806+2819",
         "P": 15.08,
         "DM": 18.7,
-        "GAL_L": 54.8,
+        "GAL_L": 54.6,
         "GAL_B": 21.7,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 43.867,
+        "PSMA": 21.609,
         "YEAR": 2015,
         "NOTES": "GBT-GBNCC"
     },
@@ -2423,7 +2423,7 @@
         "NAME": "J1823-3543",
         "P": 2.37,
         "DM": 81.6,
-        "GAL_L": 375.9,
+        "GAL_L": 357.9,
         "GAL_B": -10.3,
         "PBIN": null,
         "PSMA": null,
@@ -2494,7 +2494,7 @@
         "PBIN": null,
         "PSMA": null,
         "YEAR": 2016,
-        "NOTES": "E@H-Fermi"
+        "NOTES": "LAT-Fermi"
     },
     "228": {
         "NAME": "J1828+0625",
@@ -2879,7 +2879,7 @@
         "PBIN": null,
         "PSMA": null,
         "YEAR": 2016,
-        "NOTES": "E@H-Fermi"
+        "NOTES": "LAT-Fermi"
     },
     "263": {
         "NAME": "J1902-5105",
@@ -3006,10 +3006,10 @@
         "NAME": "J1906+0454",
         "P": 2.08,
         "DM": 142.9,
-        "GAL_L": 38.9,
+        "GAL_L": 39.0,
         "GAL_B": -1.2,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 7.042,
+        "PSMA": 4.35,
         "YEAR": 2015,
         "NOTES": "AO-PALFA"
     },
@@ -3173,8 +3173,8 @@
         "DM": 156.0,
         "GAL_L": 41.0,
         "GAL_B": -2.0,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 67.744,
+        "PSMA": 32.743,
         "YEAR": 2014,
         "NOTES": "AO-PALFA"
     },
@@ -3259,7 +3259,7 @@
         "NAME": "J1919+04",
         "P": 3.96,
         "DM": 142.8,
-        "GAL_L": 39.71,
+        "GAL_L": 39.7,
         "GAL_B": -4.3,
         "PBIN": null,
         "PSMA": null,
@@ -3270,10 +3270,10 @@
         "NAME": "J1921+1929",
         "P": 2.65,
         "DM": 64.8,
-        "GAL_L": 53.7,
-        "GAL_B": 2.3,
-        "PBIN": null,
-        "PSMA": null,
+        "GAL_L": 53.6,
+        "GAL_B": 2.5,
+        "PBIN": 39.649,
+        "PSMA": 20.847,
         "YEAR": 2016,
         "NOTES": "AO-PALFA"
     },
@@ -3337,9 +3337,9 @@
         "P": 3.02,
         "DM": 179.2,
         "GAL_L": 48.5,
-        "GAL_B": -2.4,
-        "PBIN": null,
-        "PSMA": null,
+        "GAL_B": -2.3,
+        "PBIN": 0.137,
+        "PSMA": 0.019,
         "YEAR": 2016,
         "NOTES": "AO-PALFA"
     },
@@ -3491,9 +3491,9 @@
         "P": 3.96,
         "DM": 105.9,
         "GAL_L": 53.2,
-        "GAL_B": -2.0,
-        "PBIN": null,
-        "PSMA": null,
+        "GAL_B": -2.1,
+        "PBIN": 17.306,
+        "PSMA": 9.258,
         "YEAR": 2014,
         "NOTES": "AO-PALFA"
     },
@@ -3591,8 +3591,8 @@
         "DM": 110.0,
         "GAL_L": 69.2,
         "GAL_B": 4.8,
-        "PBIN": 27.0,
-        "PSMA": 14.0,
+        "PBIN": 27.02,
+        "PSMA": 13.869,
         "YEAR": 2012,
         "NOTES": "EFF-HTRU"
     },
@@ -3655,10 +3655,10 @@
         "NAME": "J1950+2414",
         "P": 4.3,
         "DM": 142.2,
-        "GAL_L": 61.2,
+        "GAL_L": 61.1,
         "GAL_B": -1.2,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 22.191,
+        "PSMA": 14.22,
         "YEAR": 2011,
         "NOTES": "AO-PALFA"
     },
@@ -3799,9 +3799,9 @@
         "P": 4.81,
         "DM": 133.8,
         "GAL_L": 68.9,
-        "GAL_B": -1.4,
-        "PBIN": null,
-        "PSMA": null,
+        "GAL_B": -1.3,
+        "PBIN": 23.359,
+        "PSMA": 12.052,
         "YEAR": 2015,
         "NOTES": "AO-PALFA"
     },
@@ -4045,16 +4045,16 @@
         "PBIN": 2.452,
         "PSMA": 8.804,
         "YEAR": 2017,
-        "NOTES": "????"
+        "NOTES": "EFF-HTRU"
     },
     "369": {
-        "NAME": "J2055+3827",
+        "NAME": "J2055+3829",
         "P": 2.09,
         "DM": 91.9,
-        "GAL_L": 80.7,
-        "GAL_B": 4.2,
-        "PBIN": null,
-        "PSMA": null,
+        "GAL_L": 80.6,
+        "GAL_B": 4.3,
+        "PBIN": 0.13,
+        "PSMA": 0.045,
         "YEAR": 2015,
         "NOTES": "NRT-SPAN512"
     },
@@ -4130,8 +4130,8 @@
         "DM": 19.6,
         "GAL_L": 343.6,
         "GAL_B": -46.7,
-        "PBIN": null,
-        "PSMA": null,
+        "PBIN": 10.58,
+        "PSMA": 6.361,
         "YEAR": 2014,
         "NOTES": "GMRT-GHRSS"
     },
@@ -4250,9 +4250,9 @@
         "P": 3.57,
         "DM": 10.8,
         "GAL_L": 73.0,
-        "GAL_B": -43.1,
-        "PBIN": 32.0,
-        "PSMA": 14.0,
+        "GAL_B": -43.0,
+        "PBIN": 32.001,
+        "PSMA": 13.937,
         "YEAR": 2013,
         "NOTES": "AO-327Drift"
     },
