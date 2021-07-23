@@ -5,13 +5,13 @@
 [![Code style: black][black-badge]][black]
 [![A Koshka Project][koshka-badge]][koshka]
 
-## A database of MSPs for koshka :cat:
+## A database of MSPs for koshka 😸
 
 <div align="justify">
 
 This is a database of all **m**illi**s**econd **p**ulsars (**MSPs**) detected till date, maintained by *Elizabeth Ferrera*. It was originally created by *Duncan Lorimer*. It is maintained as both a simple webpage and a text file. This repository scraps the database as a text file and stores it as a [*JSON file*](galmsps.json) and as an [*SQLite database*](galmsps.db).
 
-The latter powers the [**koshka :cat: project**][koshka].
+The latter powers the [**koshka 😸 project**][koshka].
 
 </div>
 
