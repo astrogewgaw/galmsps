@@ -26,10 +26,10 @@ jobs:
       # Running the script for scrapping.
       - name: Run the scrapping script.
         run: |
-          python scrap.py
-          git add galmsps.json
-          git config --global user.email "galmspsbot@example.com"
+          python galmsps.py
+          git add galmsps.json galmsps.db
           git config --global user.name "galmspsbot"
+          git config --global user.email "galmspsbot@example.com"
           git commit -m "Galactic MSPs database updated: `date +'%Y-%m-%d %H:%M:%S'`" || true
       # Pushing the changes.
       - name: Push the changes.

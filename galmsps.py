@@ -1,8 +1,23 @@
+"""
+galmsps.py
+
+Copyright (c) 2021 Ujjwal Panda
+
+Script to scrap the database of all galactic millisecond pulsars. The database
+was created by Duncan Lorimer and is now maintained by Elizabeth Ferrera. The
+data is available as a text file, which this script scraps and parses using the
+art of regular expressions. After the data has been stored as JSON, I have used
+the dataset package to store the data as an SQLite database. Thanks to dataset,
+the code that constructs the database is just 4 lines long.
+"""
+
 if __name__ == "__main__":
 
     import re
+    import dataset  # type: ignore
 
     from json import dump
+    from pathlib import Path
     from requests import get
 
     numeric = (
@@ -52,3 +67,12 @@ if __name__ == "__main__":
             fp=fobj,
             indent=4,
         )
+
+    dbpath = Path.cwd().joinpath("galmsps.db")
+    dbpath.unlink(missing_ok=True)
+
+    db = dataset.connect(f"sqlite:///{dbpath}")
+    table = db["data"]
+    for item in data.values():
+        table.insert(item)
+    db.close()

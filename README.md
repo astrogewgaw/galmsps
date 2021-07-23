@@ -1,11 +1,24 @@
 # galmsps
 
+![License][license]
+[![Gitmoji][gitmoji-badge]][gitmoji]
 [![Code style: black][black-badge]][black]
+[![A Koshka Project][koshka-badge]][koshka]
 
-this is my own copy of the [**galactic MSPs database**][webcat], which is maintained as a simple plain text file [**here**][txtcat]. the code to scrap the database is in the [**scrap.py**](scrap.py) file, and the database itself (in all its JSONic glory) is in the [**galmsps.json**](galmsps.json) file. the data is updated on every Friday, at midnight (in UTC time). this repository will eventually power the [**koshka**][koshka] package, which aims to make accessing all pulsar and radio transient related catalogues easier.
+## A database of MSPs for koshka :cat:
 
+<div align="justify">
+
+This is a database of all **m**illi**s**econd **p**ulsars (**MSPs**) detected till date, maintained by *Elizabeth Ferrera*. It was originally created by *Duncan Lorimer*. It is maintained as both a simple webpage and a text file. This repository scraps the database as a text file and stores it as a [*JSON file*](galmsps.json) and as an [*SQLite database*](galmsps.db).
+
+The latter powers the [**koshka :cat: project**][koshka].
+
+</div>
+
+[gitmoji]: https://gitmoji.dev
 [black]: https://github.com/psf/black
 [koshka]: https://github.com/astrogewgaw/koshka
-[webcat]: http://astro.phys.wvu.edu/GalacticMSPs/
-[txtcat]: http://astro.phys.wvu.edu/GalacticMSPs/GalacticMSPs.txt
-[black-badge]: https://img.shields.io/badge/code%20style-black-000000.svg
+[license]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge
+[koshka-badge]: https://img.shields.io/badge/Powering-koshka%20🐱-gold?style=for-the-badge
+[black-badge]: https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge
+[gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
